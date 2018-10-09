@@ -1,0 +1,15 @@
+This is a Block, named B:
+    1) consumers: 0,1,2,3,4,5,6,7,8,9,10
+    2) entities: 0,1,...,100
+    3) producers: 0,1,...,25
+    4) category: sports c1, music c2, news c3.
+
+select the consumers, entities, and producers in B under category sports:
+    1) consumers: 0,1,2,3,4,5
+    2) producers: 0,1,..15
+    3) entities: 0,1,...,50
+
+for each consumer, build its leaf entry: <(c1,(e1,e2,e3),1), (c1,(e4,e2,e3),0), (c2,(e4,e2),0), (c3,(e1,e5,e3),2)>
+    pointer to disk: <(c1,(e1,e2,e3),1), (c1,(e4,e2,e3),0), (c2,(e4,e2),0), (c3,(e1,e5,e3),2)>
+    long-term list: <0.8,(1,1,0,0,0,0),(0,1,2,2,0...)>
+    short-term window: <c1,c1,c2,c3>
