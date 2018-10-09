@@ -102,6 +102,8 @@ with open("b_block_cate_user.txt") as f:
     print("category-tree query time: ",b-a)
     a = datetime.datetime.now()
     for i in range(0, len(node_list)):
-        print(node_list[i].user_id,rec_score(node_list[i],query))
+        # print(node_list[i].user_id,rec_score(node_list[i],query))
+        node_list[i].user_id
+        rec_score(node_list[i], query)
     b = datetime.datetime.now()
     print("scan query time: ",b-a)
