@@ -1,0 +1,19 @@
+category:sports(1),music(2),news(3)
+
+over:sports
+
+entities(1-50): "WWE","WWE SmackDown","Live 8","Twitter","Instagram","Facebook","Snapchat","YouTube","Canon EOS 80D","Photography","Professional","Softbox","Tripod","Bleeding Love","We Are Young"
+"2 Chainz","Lil Wayne","Marriage Play","North Carolina","Soul","Gay","Argentina","Journeyman","Coalition","African Americans","Pastor","Marriage"
+"Middle East","Leona Lewis","Lorenzo Lamas","Auch","Mund","Protein","David","Drill","Motivation","Video","Empire State of Mind","Alicia Keys"
+"Beyoncé","Tom Hunt","Abertura","Taylor Swift","Celebrity","Us Weekly","Rihanna","Calvin Harris","You Came","Lemonade","Britney Spears",This is a Block, named B:
+
+consumers(1-15):"UC3VR2eG8aw29eGCDfjzIuEQ","UCo6joQl1LsAoq1DEfC8aYuw","UClpJc8D1ODmx9N21GqULVyg","UCKQ5aoABHn-yZY6kSMJyY_Q","UC5EL5Cp7xBq4oeXemnnaZTg"
+"UCvWhz3AQmWm850NsLXUMIKw","UCKQ5aoABHn-yZY6kSMJyY_Q","UC8mj4aMndJQVa-BMXdlkK6w","UCKQ5aoABHn-yZY6kSMJyY_Q","UCHv7KwTi-R7z_n2vDJKCodA","UCKQ5aoABHn-yZY6kSMJyY_Q"
+"UCKQ5aoABHn-yZY6kSMJyY_Q","UCaFJmw3uaJnUGxVx7JUx2Og","UC4uaIa4OvcoTlvFjwvVFO1g","UCKQ5aoABHn-yZY6kSMJyY_Q"
+
+producers(1-59,957):
+
+for each consumer, build its leaf entry: <(c1,(e1,e2,e3),1), (c1,(e4,e2,e3),0), (c2,(e4,e2),0), (c3,(e1,e5,e3),2)>
+    pointer to disk: <(c1,(e1,e2,e3),1), (c1,(e4,e2,e3),0), (c2,(e4,e2),0), (c3,(e1,e5,e3),2)>
+    long-term list: <0.8,(1,1,0,0,0,0),(0,1,2,2,0...)>
+    short-term window: <c1,c1,c2,c3>
